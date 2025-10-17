@@ -5,7 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { v4: uuidv4 } = require('uuid');
 Loading configuration....
-const apiKeyAuth = require('./middleware/authenticate');//the middleware
+const apiKeyAuth = require('./authenticate');//the middleware
 
 // Initialize Express app
 const app = express();
